@@ -1,0 +1,58 @@
+#rest-order-now {
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+	position: fixed;
+	top: 0px;
+	right: 20px;
+	background-image: url('../images/order.png');
+	z-index: 2147483644;
+}
+
+#rest-link {
+	display: block;
+	position: absolute;
+	top: -50px;
+	left:0px;
+}
+
+#rest-order {
+display:none;
+z-index:2147483646;
+border:1px solid #666;
+overflow:auto;
+position:fixed;
+top:5%;
+left:5%;
+width:90%;
+height:90%;
+-moz-box-shadow:0 0 90px 5px #000;
+-webkit-box-shadow:0 0 90px #000;
+-webkit-overflow-scrolling: touch;
+}
+
+#rest-overlay {
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color:#fff;
+z-index:2147483645;
+-moz-opacity:.25;
+opacity:.25;
+filter:alpha(opacity=25);
+}
+
+#rest-close {
+display:none;
+position:fixed;
+right:4%;
+top:2%;
+width:30px;
+height:30px;
+cursor:pointer;
+background-image:url(../images/close.png);
+z-index:2147483647;
+}

@@ -1,0 +1,281 @@
+/*reset*/
+*{margin:0;padding:0;}
+ul{list-style:none;}
+/*tags HTML5*/
+section,header,footer,aside,article{display:block;}
+@font-face {
+	font-family: alte;
+	src:url('AlteHaasGroteskRegular.ttf');
+}
+img {border:none;}
+.clear {
+	width:100%;
+	clear:both;
+}
+a{
+	color:#30251e;
+	text-decoration:none;
+	font-family:'alte';
+	font-size:18px;
+}
+a:focus {
+	border:none;
+	outline:none;
+}
+.destaque {
+	color:#faa74a;
+	text-shadow:#fff;
+	font-weight:bold;
+}
+p {
+	margin-bottom:6px;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom:10px;
+	font-size:17px;
+}
+h3{
+	font-size:14px;
+}
+h4{
+	color:#93be3d;
+	font-size:12px;
+}
+input,textarea,select {
+	-webkit-border-radius:5px;
+	border:1px #ccc solid;
+	font:12px Verdana, Geneva, sans-serif;
+}
+
+#geral {
+	padding:2px;
+}
+header {
+	height:130px;
+	background:url(../image/bg_header.png) 23px center no-repeat;
+	position:relative;
+	margin-bottom:20px;
+}
+header h1 {
+	background:url(/images/footerlogo.png) no-repeat center;
+	width:100%;
+	height:100%;
+	background-position:center;
+	position:absolute;
+}
+header h1 a{
+	display:block;
+	width:124px;
+	height:110px;
+	text-indent:-9999px;
+}
+header .btn_home {
+	width:48px;
+	height:31px;
+	background:url(../image/btn_home.jpg);
+	position:absolute;
+	right:15px;
+	top:15px;
+}
+header .btn_home a {
+	display:block;
+	width:48px;
+	height:48px;
+}
+
+section{
+	margin-bottom:20px;
+	padding:0 4px;
+	text-align:justify;
+	font-family: tahoma;
+}
+
+
+section .menu li a{	
+	height:40px;
+	line-height:40px;
+	text-indent:10px;
+	display:block;
+	background:#CCC;
+	opacity:0.7;
+	-webkit-border-radius:8px;
+	margin-bottom:8px;
+	text-align:center;
+	font-family: "Book Antiqua", Palatino, serif;
+	text-shadow:1px 1px 1px #ccc;
+	font-weight:bold;
+	border:2px #f4ae14 solid;
+}
+
+section .menu li a:hover{
+	color:#f4ae14;
+	text-shadow:1px 1px 1px #000;
+}
+section .menu_cardapio li{
+	-webkit-border-radius:8px;
+}
+section .menu_cardapio li a{	
+	height:40px;
+	line-height:40px;
+	text-indent:10px;
+	display:block;
+	-webkit-border-radius:8px;
+	margin-bottom:8px;
+	text-align:center;
+	font-family: "Book Antiqua", Palatino, serif;
+	text-shadow:1px 1px 1px #000;
+	font-weight:bold;
+	border:2px #f4ae14 solid;
+}
+section .menu_cardapio_interno{
+	height:90px;
+	border:0px red solid;
+}
+section .menu_cardapio_interno li{
+	text-align:center;
+}
+section .menu_cardapio_interno li a{
+	float:left;
+	display:block;
+	padding:6px;
+	margin:2px;
+	font-size:13px;
+	text-align:center;
+}
+.lista {
+	margin-bottom:10px;
+}
+.lista li{
+	text-transform:uppercase;
+	border-bottom:1px dashed #f3c730;
+	padding:10px;
+}
+.lista li .desc{
+	text-transform:none ;
+}
+a.peti{
+	background:#742e2e;	
+	color:#a4a387;
+}
+a.msp{
+	background:#413535;	
+	color:#a4a387;
+}
+a.bb{
+	background:#38584b;	
+	color:#ecf091;
+}
+
+footer {
+	padding:5px;
+	position:relative;
+	text-align:center;
+	color:#332824;
+}
+address {
+	font-style:normal;
+	font-size:11px;
+	padding:5px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	border:0px red solid;
+	color:#ece5d3;
+}
+.contato {
+	padding:8px 0 8px 0;
+	border-top:1px #ece5d3 dotted;
+
+}
+.contato p{
+	text-align:left;
+	color:#fff;
+	border:0px white solid;
+	float:left;
+	font-size:20px;
+	line-height:30px;
+}
+.contato p img{
+	vertical-align:middle;
+}
+.contato .redes{
+	text-align:right;
+	padding:0px 0 0 0;
+	border:0px red solid;
+}
+.contato .redes a{
+	margin-left:4px;
+}
+.tlt {
+	color:#f4ae14;
+	text-shadow:1px 1px 1px #000;
+	padding-bottom:5px;
+}
+h2.tlt a {
+	font-family:verdana;
+	font-size:17px;
+}
+.sub_tlt {
+	color:#93be3d;
+	padding-bottom:5px;
+}
+.texto {
+	text-align:justify;
+}
+.sosanto {
+	background:#807d5c;
+}
+form .submit {
+	background:#fff;
+	padding:5px;
+	font-family:alte;
+	float:right;
+	margin-top:10px;
+	border:1px #f4ae14 solid;
+	cursor:pointer;
+}
+input, textarea, select {
+	font-size:12px;
+	border:1px #f4ae14 solid;
+}
+
+.mini_animacao {
+	height:110px;
+	position:relative;
+	background:url(../image/bg_mobile.png) center bottom no-repeat;
+}
+@-webkit-keyframes logo{
+	0% {
+	top: 0px;
+	}
+    100% {
+	top: 10px;
+	}
+}
+.calendario {
+	border:1px #fff solid;
+	background:#e7e0ce url(../image/bg_menu.jpg);
+	padding:5px;
+	-webkit-border-radius:4px;
+	margin-bottom:10px;
+	text-align:center;
+}
+.calendario h3{
+	color:#332824;
+	text-shadow:1px 1px 1px #fff;
+}
+.calendario p{
+	color:#684f46;
+}
+.fixa {
+	height:50px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.assinatura{
+	font-size:11px;
+}
+.assinatura a {
+	color:#960;
+	font-size:11px;
+	font-family:tahoma;
+}

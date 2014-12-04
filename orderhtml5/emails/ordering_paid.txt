@@ -1,0 +1,13 @@
+
+Hello.
+New order has been placed. Details are following:
+
+Paid Amount: {PAID_AMOUNT}
+Details:
+{ORDER_DETAILS}
+
+Order Type: {ORDER_TYPE}
+Delivery Address:
+{DELIVERY_ADDRESS}
+
+Best regards.
